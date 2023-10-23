@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "category": {
+        "id": "6",
+        "name": "E-commerce"
+      },
+      "name": "Desenvolvimento de sistemas",
+      "budget": "15000",
+      "yuprojet": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "loja E-commerce",
+      "budget": "1500",
+      "category": {
+        "id": "6",
+        "name": "E-commerce"
+      },
+      "yuprojet": 1500,
+      "services": [
+        {
+          "name": "Desenvolvedor Backend",
+          "yuprojet": "1500",
+          "description": "desenvolvedor freelance",
+          "id": "35c6d433-259f-4ef2-8f43-1960196a67fa"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "ude",
+      "budget": "15000",
+      "category": {
+        "id": "1",
+        "name": "Desenvolvimento"
+      },
+      "yuprojet": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 2,
+      "name": "Jogos"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    },
+    {
+      "id": 5,
+      "name": "Marketing"
+    },
+    {
+      "id": 6,
+      "name": "E-commerce"
+    }
+  ]
+}

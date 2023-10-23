@@ -1,0 +1,13 @@
+.newproject_container{
+    width: 700px;
+    margin:0 auto;
+    padding: 3em;
+}
+.newproject_container h1{
+    margin-bottom: 0.5em;
+    color: aliceblue;
+    font-weight: bold;
+}
+.newproject_container p {
+    color: aliceblue;
+}

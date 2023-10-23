@@ -1,0 +1,125 @@
+.container {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card_company{
+    margin-bottom: 2rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    float: left;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#f59f00, #ffeeb5);
+    transition: all .5s;
+}
+
+.card_company:hover {
+    background-image: linear-gradient(rgb(179, 255, 173)rgb(248, 247, 151));
+}
+
+.card_company .img {
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh;
+    background-image: url('../img/done-for-the-day\ \(1\).svg');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    position: relative;
+    opacity: .8;
+}
+
+.card_company .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card_company:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card_company:hover .img span {
+    font-size: 28px;
+}
+
+.card_company .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card_company:hover .content {
+    height: 45vh;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card_company .content p {
+    margin: 0;
+}
+
+.card_company .content .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #141414;
+}
+
+.card_company .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card_company .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card_company:hover .arrow {
+    transform: rotate(0);
+}
+
+.card_company .arrow span {
+    font-size: 24px;
+}
+
+.card_company .img2 {
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh;
+    background-image: url('../img/stock-broker\ \(1\).svg');
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    position: relative;
+    opacity: .8;
+}
